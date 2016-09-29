@@ -24,6 +24,7 @@
     webView.ProgressFloat = 0.31;
     [webView loadHTMLStr:@"https://github.com/" defaultCachePolicy:XWLOnlyLoadIfNotCachedCachePolicy];
 }
+////-9802  http://www.cnblogs.com/dsxniubility/p/4821184.html?utm_source=tuicool&utm_medium=referral
 - (void)returnToDocumentProgress:(NSString *)progress{
     NSLog(@"进度为%@",progress);
     NSLog(@"返回键%f",webView.documentProgressFloat);
