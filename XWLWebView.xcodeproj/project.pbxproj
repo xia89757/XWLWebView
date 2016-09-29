@@ -15,6 +15,9 @@
 		C859A07D1D9B8D7800D2389B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C859A07B1D9B8D7800D2389B /* LaunchScreen.storyboard */; };
 		C859A0881D9B8D7800D2389B /* XWLWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C859A0871D9B8D7800D2389B /* XWLWebViewTests.m */; };
 		C859A0931D9B8D7800D2389B /* XWLWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C859A0921D9B8D7800D2389B /* XWLWebViewUITests.m */; };
+		C859A0E71D9BEADC00D2389B /* XWLWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C859A0E61D9BEADC00D2389B /* XWLWebView.m */; };
+		C859A0EA1D9BEB3200D2389B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C859A0E91D9BEB3200D2389B /* WebViewController.m */; };
+		C859A0EE1D9BF01300D2389B /* WebViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C859A0ED1D9BF01300D2389B /* WebViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		C859A08E1D9B8D7800D2389B /* XWLWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWLWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C859A0921D9B8D7800D2389B /* XWLWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWLWebViewUITests.m; sourceTree = "<group>"; };
 		C859A0941D9B8D7800D2389B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C859A0E51D9BEADC00D2389B /* XWLWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWLWebView.h; sourceTree = "<group>"; };
+		C859A0E61D9BEADC00D2389B /* XWLWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWLWebView.m; sourceTree = "<group>"; };
+		C859A0E81D9BEB3200D2389B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C859A0E91D9BEB3200D2389B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C859A0EC1D9BF01300D2389B /* WebViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController1.h; sourceTree = "<group>"; };
+		C859A0ED1D9BF01300D2389B /* WebViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				C859A0711D9B8D7800D2389B /* AppDelegate.m */,
 				C859A0731D9B8D7800D2389B /* ViewController.h */,
 				C859A0741D9B8D7800D2389B /* ViewController.m */,
+				C859A0E51D9BEADC00D2389B /* XWLWebView.h */,
+				C859A0E61D9BEADC00D2389B /* XWLWebView.m */,
+				C859A0E81D9BEB3200D2389B /* WebViewController.h */,
+				C859A0E91D9BEB3200D2389B /* WebViewController.m */,
+				C859A0EC1D9BF01300D2389B /* WebViewController1.h */,
+				C859A0ED1D9BF01300D2389B /* WebViewController1.m */,
 				C859A0761D9B8D7800D2389B /* Main.storyboard */,
 				C859A0791D9B8D7800D2389B /* Assets.xcassets */,
 				C859A07B1D9B8D7800D2389B /* LaunchScreen.storyboard */,
@@ -270,8 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C859A0751D9B8D7800D2389B /* ViewController.m in Sources */,
+				C859A0EA1D9BEB3200D2389B /* WebViewController.m in Sources */,
 				C859A0721D9B8D7800D2389B /* AppDelegate.m in Sources */,
+				C859A0EE1D9BF01300D2389B /* WebViewController1.m in Sources */,
 				C859A06F1D9B8D7800D2389B /* main.m in Sources */,
+				C859A0E71D9BEADC00D2389B /* XWLWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +515,7 @@
 				C859A0991D9B8D7800D2389B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C859A09A1D9B8D7800D2389B /* Build configuration list for PBXNativeTarget "XWLWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +524,7 @@
 				C859A09C1D9B8D7800D2389B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C859A09D1D9B8D7800D2389B /* Build configuration list for PBXNativeTarget "XWLWebViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +533,7 @@
 				C859A09F1D9B8D7800D2389B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
